@@ -26,4 +26,4 @@ jobs:
           images: name/app
           tags: |
             type=ref,event=branch
-            type=raw,priority=100,value=0.1.2,prefix='prod-'
+            type=semver,priority=100,value=0.1.2,prefix=prod-
